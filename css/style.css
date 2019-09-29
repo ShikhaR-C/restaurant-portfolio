@@ -436,3 +436,11 @@ color: #999;
 #footer a:hover {
 	color: #eee;
 }
+
+
+@media only screen and (max-width: 600px) {
+	.team-img {
+		display: flex;
+		justify-content: flex-end;
+	}
+}
